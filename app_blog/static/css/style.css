@@ -1,0 +1,40 @@
+/* static/css/style.css */
+
+.post-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333; /* Додайте колір заголовка */
+}
+
+.post {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post-title {
+    font-size: 20px;
+    color: #0077b6; /* Додайте колір заголовку поста */
+}
+
+.post-content {
+    font-size: 16px;
+    color: #333; /* Додайте колір тексту поста */
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #0077b6; /* Додайте колір посилань */
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+/* Додайте інші стилі за вашим власним бажанням */

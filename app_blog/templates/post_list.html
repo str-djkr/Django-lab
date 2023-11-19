@@ -1,0 +1,21 @@
+<!-- templates/your_app/post_list.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="post-list">
+    <h1 class="page-title">Список постів</h1>
+    <ul>
+        {% for post in posts %}
+        <li class="post">
+            <h2 class="post-title"><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h2>
+            <p class="post-content">{{ post.content }}</p>
+
+        </li>
+        {% empty %}
+        <p>На жаль, поки немає жодних постів.</p>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+
